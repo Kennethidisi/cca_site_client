@@ -1,0 +1,540 @@
+.settingContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+
+
+.right_setting_container{
+    width: 83%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: whitesmoke;
+    gap: 30px;
+}
+
+.setting_general{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.setting_general h1{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.setting_underline{
+    width: 6rem;
+    height: 3px;
+    background-color: #F26726;
+}
+
+.general_settings_div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 30px;
+}
+
+.gen_sett_title{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.gen_sett_title h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+.gen_sett_title p{
+    font-size: 14px;
+    color: #555;
+}
+
+.general_setting{
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.prof_gen_sett{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+
+}
+
+.general_setting h5{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.profile_sett_div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile_sett_div p{
+    width: 30%;
+    text-align: left;
+    font-size: 16px;
+}
+
+.profile_sett{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile_sett img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    padding: 2px;
+    object-fit: cover;
+}
+
+.profile_sett input{
+    display: none;
+}
+
+.profile_sett .changeProBtn{
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: #666;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.profile_sett .changeProBtn:hover{
+    background-color: #e2dfdf;
+}
+
+.profile_sett_div input{
+    width: 75%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.profileData{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn_save_div{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileData #save_change_btn{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+   padding: 6px 10px;
+   outline: none;
+   border: 1px solid transparent;
+   font-weight: 600;
+   cursor: pointer;
+   background-color: royalblue;
+   color: whitesmoke;
+   border-radius: 7px;
+   font-size: 13px;
+   letter-spacing: .3px;
+}
+
+.profileData #save_change_btn:hover{
+    background-color: rgb(41, 80, 197);
+    color: white;
+}
+
+.display_settings{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 30px;
+    margin-top: 70px;
+}
+
+
+.display{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    margin-top: 10px;
+}
+
+.theme_logout{
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.theme_div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin-top: 20px;
+
+}
+
+.theme_div p, .setting_logout p{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .3px;
+}
+
+.dark_theme_title, .setting_logout_title{
+    width: 30%;
+    display: flex;
+}
+
+.theme_btn{
+    width: 50px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: rgb(214, 220, 237);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.toggle_theme{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(41, 80, 197);
+    position: absolute;
+    left: 0;
+    transition: all .3s ease;
+}
+
+.toggle_dark_theme{
+    left: 25px;
+}
+
+.setting_logout{
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.setting_logout_btn{
+   display: flex;
+   padding: 6px 10px;
+   outline: none;
+   border: 1px solid transparent;
+   font-weight: 600;
+   cursor: pointer;
+   background-color: crimson;
+   color: whitesmoke;
+   border-radius: 7px;
+}
+
+
+@media(max-width:1120px){
+    .right_setting_container{
+        width: 100%;
+    }
+
+    .container_help{
+        position: fixed;
+    }
+
+    .general_settings_div{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+
+    .gen_sett_title{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .profile_sett_div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .profileData #save_change_btn{
+       padding: 6px 10px;
+    }
+    
+    .display_settings{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0;
+        margin-top: 70px;
+        gap: 30px;
+    }
+    
+    .theme_logout{
+        width: 40%;
+        gap: 30px;
+    }
+    
+    .theme_div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin-top: 20px;
+    
+    }
+    
+    .theme_div p, .setting_logout p{
+        width: 80%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+        font-size: 15px;
+        padding-left: 10%;
+    }
+    
+    .dark_theme_title, .setting_logout_title{
+        width: 50%;
+        display: flex;
+    }
+    
+    .setting_logout{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin-top: 20px;
+    }
+}
+
+
+
+@media(max-width:850px){
+    
+    .general_setting{
+        width: 85%;
+    }
+    
+    .profile_sett_div p{
+        width: 30%;
+        font-size: 14px;
+    }
+    
+    .profile_sett{
+        width: 68%;
+    }
+    
+    .profile_sett_div input{
+        width: 68%;
+    }
+    
+    .display_settings{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0;
+        margin-top: 70px;
+        gap: 30px;
+    }
+    
+    .theme_logout{
+        width: 60%;
+        padding: 10px 10px;
+    }
+    
+    
+    .theme_div p, .setting_logout p{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        font-size: 14px;
+        padding-left: 0;
+    }
+    
+    .dark_theme_title{
+        width: 50%;
+        display: flex;
+    }
+
+    .setting_logout_title{
+        width: 40%;
+    }
+    
+    .theme_btn{
+        width: 40px;
+        height: 20px;
+        border-radius: 20px;
+    }
+    
+    .toggle_theme{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .toggle_dark_theme{
+        left: 20px;
+    }
+    
+    .setting_logout_btn{
+       display: flex;
+       padding: 4px 7px;
+       font-size: 11px;
+    }
+}
+
+
+@media(max-width:480px){
+    
+    .general_setting{
+        width: 90%;
+    }
+
+    .profile_sett_div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    
+    .profile_sett_div p{
+        width: 100%;
+        font-size: 12px;
+    }
+    
+    .profile_sett{
+        width: 100%;
+    }
+    
+    .profile_sett_div input{
+        width: 100%;
+    }
+    
+    .theme_logout{
+        width: 85%;
+        padding: 8px 8px;
+    }
+    
+    
+    .theme_div p, .setting_logout p{
+        font-size: 13px;
+    }
+    
+    .dark_theme_title{
+        width: 60%;
+        display: flex;
+    }
+
+    .setting_logout_title{
+        width: 40%;
+    }
+
+    .display{
+        font-size: 17px;
+        font-weight: 500;
+        color: #333;
+        margin-top: 10px;
+    }
+
+    .gen_sett_title h4{
+        font-size: 17px;
+        font-weight: 500;
+        color: #333;
+    }
+    
+    .gen_sett_title p{
+        font-size: 12px;
+        color: #555;
+    }
+
+    .setting_general h1{
+        font-size: 25px;
+    }
+    
+    .setting_underline{
+        width: 5rem;
+    }
+}

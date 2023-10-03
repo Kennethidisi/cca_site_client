@@ -1,0 +1,182 @@
+.my_courses_container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+
+.course_right{
+    width: 83%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: whitesmoke;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.course_reg_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.course_reg_title h3{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: .4px;
+}
+
+.course_reg_title_underline{
+    width: 12rem;
+    height: 3px;
+    background-color: #F26726;
+}
+
+.myCourseCard_div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.myCourseCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: white;
+    padding: 30px;
+    width: 480px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+}
+
+.myCourseCard img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.my_course_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.my_course_details h4{
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.my_course_details h4 span{
+    color: #F26726;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .3px;
+}
+
+.my_course_details button{
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+    padding: 7px 12px;
+    background-color: #F26726;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    transition: all .3s ease;
+}
+
+.my_course_details button:hover{
+    background-color: #db5111;
+}
+
+.register_course{
+    color: #551A8B;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.register_course:hover{
+    text-decoration: underline;
+}
+
+
+@media(max-width:1120px){
+    .course_right{
+        width: 100%;
+    }    
+
+    .container_help{
+        position: fixed;
+    }
+}
+
+
+@media(max-width: 480px){
+    .course_reg_title h3{
+        font-size: 22px;
+    }
+    
+    .myCourseCard_div{
+        width: 100%;
+    }
+    
+    .myCourseCard{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 20px;
+        width: 80%;
+    }
+
+    .my_course_details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
+@media(max-width:320px){
+
+    .myCourseCard{
+        padding: 20px 10px;
+        width: 90%;
+    }
+
+    .my_course_details h4{
+        font-size: 12px;
+        gap: 7px;
+    }
+    
+    .my_course_details h4 span{
+        font-size: 12px;
+    }
+    
+    .my_course_details button{
+        padding: 5px 10px;
+        font-size: 11px;
+    }
+       
+}

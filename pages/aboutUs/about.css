@@ -1,0 +1,258 @@
+.abtContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.abtBanner{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background: linear-gradient(rgba(8, 12, 132, 0.7), rgba(9, 13, 112, 0.7)), url('../../images/bg.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.abtBanner h1{
+    color: white;
+    font-size: 45px;
+    letter-spacing: .5px;
+    font-weight: 500;
+    text-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+.abtBanner h1 span{
+    color: #FFA500;
+}
+
+
+.about_div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.who_are_we, .our_mission, .our_vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.who_are_we img, .our_mission img, .our_vision img{
+    width: 400px;
+}
+
+.who_are_we h3, .our_mission h3, .our_vision h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -100px;
+    color: #010351;
+}
+
+.who_are_we p, .our_mission p, .our_vision p{
+    margin-top: 20px;
+    width: 75%;
+    text-align: center;
+    font-size: 14px;
+    color: #010351;
+}
+
+.about_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    gap: 30px;
+    padding: 30px 20px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.05);
+    margin: 150px 0px;
+    margin-bottom: 200PX;
+    border-radius: 15px;
+}
+
+.about_details h2{
+    color: #010351;
+    letter-spacing: .7px;
+}
+
+.about_details p{
+    width: 100%;
+    text-align: center;
+    color: #010351;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: .3px;
+}
+
+
+
+@media(max-width:1280px){
+    .who_are_we, .our_mission, .our_vision{
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_div{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    }
+
+    .who_are_we img, .our_mission img, .our_vision img{
+        width: 100%;
+    }
+
+    .who_are_we h3, .our_mission h3, .our_vision h3{
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: -50px;
+        color: #010351;
+    }
+    
+    .who_are_we p, .our_mission p, .our_vision p{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        color: #010351;
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+
+
+@media(max-width:890px){
+    .who_are_we, .our_mission, .our_vision{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    }
+
+    .who_are_we img, .our_mission img, .our_vision img{
+        width: 100%;
+    }
+
+    .who_are_we h3, .our_mission h3, .our_vision h3{
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: -50px;
+        color: #010351;
+    }
+
+    .about_details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        gap: 30px;
+        padding: 30px 20px;
+        box-shadow: 0px 8px 16px rgba(0,0,0,0.05);
+        margin: 150px 0px;
+        margin-bottom: 200PX;
+        border-radius: 15px;
+    }
+    
+    .about_details h2{
+        font-size: 22px;
+        width: 100%;
+        text-align: center;
+        color: #010351;
+        letter-spacing: .7px;
+    }
+    
+    .about_details p{
+        width: 100%;
+        text-align: center;
+        color: #010351;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: .3px;
+    }
+}
+
+
+
+@media(max-width:450px){
+    .abtBanner h1{
+        font-size: 30px;
+    }
+
+    .who_are_we, .our_mission, .our_vision{
+        width: 80%;
+    }
+
+
+    .who_are_we img, .our_mission img, .our_vision img{
+        width: 100%;
+    }
+
+    .who_are_we h3, .our_mission h3, .our_vision h3{
+        font-size: 17px;
+        font-weight: 600;
+        margin-top: -50px;
+        color: #010351;
+    }
+
+    .who_are_we p, .our_mission p, .our_vision p{
+        font-size: 13px;
+    }
+
+    .about_details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        gap: 30px;
+        padding: 30px 20px;
+        box-shadow: 0px 8px 16px rgba(0,0,0,0.06);
+        margin: 150px 0px;
+        margin-bottom: 200PX;
+        border-radius: 15px;
+    }
+    
+    .about_details h2{
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+        color: #010351;
+        letter-spacing: .7px;
+    }
+    
+    .about_details p{
+        width: 100%;
+        text-align: center;
+        color: #010351;
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: .4px;
+        line-height: 20px;
+    }
+}

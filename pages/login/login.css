@@ -1,0 +1,120 @@
+.loginContainer{
+    width: 100%;
+}
+
+.loginBanner{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background: linear-gradient(rgba(8, 12, 132, 0.7), rgba(9, 13, 112, 0.7)), url('../../images/bg.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loginBanner h1{
+    color: white;
+    font-size: 45px;
+    letter-spacing: .5px;
+    font-weight: 500;
+    text-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+.loginBanner h1 span{
+    color: #FFA500;
+}
+
+.login_sect{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+.login_container{
+    width: 37%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+}
+
+.login_container h1{
+    color: #010351;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.admin_link{
+    font-size: 14px;
+    letter-spacing: .4px;
+    margin-top: 10px;
+    color: #010351;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.incorrect{
+    color: red;
+}
+
+
+@media(max-width:1280px){
+    .login_container{
+        width: 50%;
+    }
+}
+
+
+@media(max-width:890px){
+    .login_container{
+        width: 65%;
+    }
+}
+
+@media(max-width:545px){
+    .login_container{
+        width: 80%;
+    }
+}
+
+@media(max-width:450px){
+    .loginBanner h1{
+        font-size: 28px;
+    }
+    
+
+    .login_container h1{
+        font-size: 25px;
+    }
+
+    .login_container{
+        width: 90%;
+    }
+    
+    .admin_link{
+        font-size: 11px;
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+
+
+@media(max-width:300px){
+    .loginBanner h1{
+        font-size: 25px;
+    }
+
+}

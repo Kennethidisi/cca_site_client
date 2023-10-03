@@ -1,0 +1,219 @@
+.admin_container{
+    width:  100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+
+.admin_right{
+    width: 83%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.adminBanner{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: royalblue;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.adminBanner .welcomeAdmin{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+
+.admin_card_div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: -75px;
+}
+
+
+.adminCard{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+}
+
+.adminCard h3{
+    font-weight: 500;
+    color: #23267B;
+    letter-spacing: .3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adminCard h1{
+    margin-top: 10px;
+    color: #23267B;
+    font-size: 40px;
+}
+
+.adminCard p{
+    font-size: 14px;
+    color: #23267B;
+}
+
+
+
+@media(max-width:1120px){
+    .admin_right{
+        width: 100%;
+    }
+}
+
+
+@media(max-width:830px){
+
+    .adminBanner{
+        width: 100%;
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: royalblue;
+        position: relative;
+        margin-bottom: 500px;
+        gap: 50px;
+    }
+
+    .adminBanner .welcomeAdmin{
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
+    .admin_card_div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        /* top: 100px; */
+        bottom: 0;
+    }
+    
+    
+    .adminCard{
+        width: 80%;
+        height: 150px;
+        padding:  20px;
+    }
+    
+    .adminCard h3{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .adminCard h1{
+        margin-top: 0px;
+        font-size: 40px;
+    }
+    
+    .adminCard p{
+        font-size: 14px;
+    }
+}
+
+
+
+@media(max-width:480px){
+
+    .admin_help{
+        position: fixed;
+        overflow-y: hidden;
+    }
+    
+    .adminBanner{
+        margin-bottom: 450px;
+    }
+
+    .adminBanner .welcomeAdmin{
+        font-size: 23px;
+    }
+
+    .adminCard{
+        width: 80%;
+        height: 140px;
+        padding:  20px;
+    }
+
+
+    .adminCard h1{
+        margin-top: 0px;
+        font-size: 35px;
+    }
+
+    .adminCard h3{
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    .adminCard p{
+        font-size: 13px;
+    }
+}
+
+
+
+@media(max-width:300px){
+
+    .adminBanner{
+        height: 190px;
+    }
+
+    .adminBanner .welcomeAdmin{
+        font-size: 18px;
+    }
+
+    .adminCard{
+        width: 80%;
+        height: 130px;
+        padding:  20px;
+    }
+
+
+    .adminCard h1{
+        margin-top: 0px;
+        font-size: 30px;
+    }
+
+    .adminCard h3{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .adminCard p{
+        font-size: 11px;
+    }
+}

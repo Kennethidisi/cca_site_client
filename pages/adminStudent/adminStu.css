@@ -1,0 +1,233 @@
+.adminStu_container{
+    width:  100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: whitesmoke;
+}
+
+.admin_stu_right{
+    width: 83%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-bottom: 100px;
+}
+
+.admin_stu_right h2{
+    margin-top: 50px;
+    color: #23267B;
+    letter-spacing: .5px;
+}
+
+.search_div{
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    border: 1px solid silver;
+}
+
+.search_div input{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 5px 50px 5px 20px;
+}
+
+.search_div button{
+    position: absolute;
+    right: 13px;
+    outline: none;
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.searchIcon{
+    font-size: 28px !important;
+    color: silver !important;
+}
+
+.details{
+    display: flex;
+    width: 30%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.details .cancel_btn{
+    position: absolute;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 7px;
+    right: 10px;
+}
+
+.details .cancel_btn .cancel{
+    color: rgb(216, 26, 26) !important;
+    font-size: 20px !important;
+}
+
+.details a{
+    font-size: 14px;
+}
+
+
+@media(max-width:1120px){
+    .admin_stu_right{
+        width: 100%;
+    }
+
+    .admin_help{
+        position: fixed;
+        overflow-y: hidden;
+    }
+
+    .details{
+        width: 45%;
+    }
+}
+
+
+@media(max-width:700px){
+    .search_div{
+        width: 60%;
+    }
+
+    .details{
+        width: 60%;
+    }
+}
+
+
+@media(max-width:550px){
+    .search_div{
+        width: 70%;
+    }
+
+    .admin_stu_right h2{
+        font-size: 20px;
+    }
+
+    .details{
+        width: 70%;
+    }
+}
+
+
+@media(max-width:450px){
+
+    .details{
+        width: 80%;
+        gap: 18px;
+        padding: 20px 10px;
+    }
+
+    .details h5{
+        font-size: 13px;
+    }
+
+    .details a{
+        font-size: 11px;
+    }
+
+    .search_div{
+        width: 80%;
+        height: 35px;
+        margin-top: 30px;
+    }
+
+    .admin_stu_right h2{
+        margin-top: 30px;
+        color: #23267B;
+        letter-spacing: .5px;
+        font-size: 18px;
+    }
+
+    .search_div input::placeholder{
+        font-size: 12px;
+    }
+
+    .searchIcon{
+        font-size: 25px !important;
+    }
+
+    .search_div input{
+        padding: 5px 50px 5px 15px;
+    }
+
+    .details .cancel_btn{
+        top: 5px;
+        right: 5px;
+    }
+    
+    .details .cancel_btn .cancel{
+        font-size: 17px !important;
+    }
+    
+}
+
+
+@media(max-width:310px){
+    .details{
+        width: 90%;
+        gap: 10px;
+        padding: 20px 15px;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .search_div{
+        width: 90%;
+        height: 35px;
+        margin-top: 30px;
+    }
+
+    .search_div input::placeholder{
+        font-size: 11px;
+    }
+
+    .search_div input{
+        padding: 5px 50px 5px 12px;
+    }
+
+    .admin_stu_right h2{
+        text-align: center;
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+
+
+    
+    
+}
