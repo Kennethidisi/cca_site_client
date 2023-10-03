@@ -1,0 +1,466 @@
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #23267B;
+    color: white;
+}
+
+.footer_top{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14%;
+    padding: 40px;
+    padding-left: 80px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.logo_adrress, .footer_address{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.footer_logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer_logo img{
+    width: 50px;
+}
+
+.footer_logo h1{
+    font-size: 22.5px;
+    font-weight: 500;
+}
+
+.footer_address p{
+    font-size: 13.5px;
+}
+
+.footer_resource, .footer_abt, .footer_courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.footer_resource h4, .footer_abt h4, .footer_courses h4{
+    font-weight: 600;
+}
+
+.footer_resource_list, .footer_abt_list, .footer_course_list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer_resource_list span, .footer_abt_list span, .footer_course_list span{
+    font-size: 13.5px;
+    cursor: pointer;
+}
+
+.footer_resource_list span:hover, .footer_abt_list span:hover, .footer_course_list span:hover{
+    text-decoration: underline;
+}
+
+.footer_btm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.footer_btm p{
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+
+
+@media(max-width:1280px){
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #23267B;
+        color: white;
+    }
+    
+    .footer_top{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10%;
+        padding: 30px;
+        padding-left: 30px;
+        border-bottom: 1px solid whitesmoke;
+    }
+    
+    .logo_adrress, .footer_address{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    
+    .footer_logo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .footer_logo img{
+        width: 50px;
+    }
+    
+    .footer_logo h1{
+        font-size: 22.5px;
+        font-weight: 500;
+    }
+    
+    .footer_address p{
+        font-size: 13.5px;
+    }
+    
+    .footer_resource, .footer_abt, .footer_courses{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 25px;
+    }
+    
+    .footer_resource h4, .footer_abt h4, .footer_courses h4{
+        font-weight: 600;
+    }
+    
+    .footer_resource_list, .footer_abt_list, .footer_course_list{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .footer_resource_list span, .footer_abt_list span, .footer_course_list span{
+        font-size: 13.5px;
+        cursor: pointer;
+    }
+    
+}
+
+
+@media(max-width:930px){
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #23267B;
+        color: white;
+    }
+    
+    .footer_top{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 0;
+        padding: 30px;
+        padding-left: 30px;
+        border-bottom: 1px solid whitesmoke;
+    }
+    
+    .logo_adrress, .footer_address{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    
+    .footer_logo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .footer_logo img{
+        width: 40px;
+    }
+    
+    .footer_logo h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .footer_address p{
+        font-size: 13px;
+    }
+    
+    .footer_resource, .footer_abt, .footer_courses{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 25px;
+    }
+    
+    .footer_resource h4, .footer_abt h4, .footer_courses h4{
+        font-weight: 600;
+    }
+    
+    .footer_resource_list, .footer_abt_list, .footer_course_list{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .footer_resource_list span, .footer_abt_list span, .footer_course_list span{
+        font-size: 13px;
+        cursor: pointer;
+    }
+}
+
+
+@media(max-width:780px){
+    .footer_top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 50px;
+        padding: 30px;
+        padding-left: 0px;
+        border-bottom: 1px solid whitesmoke;
+    }
+    
+    .logo_adrress, .footer_address{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .footer_logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .footer_logo img{
+        width: 50px;
+    }
+    
+    .footer_logo h1{
+        font-size: 23px;
+        font-weight: 500;
+    }
+    
+    .footer_address p{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer_resource, .footer_abt, .footer_courses{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+    
+    .footer_resource h4, .footer_abt h4, .footer_courses h4{
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .footer_resource_list, .footer_abt_list, .footer_course_list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    .footer_resource_list span, .footer_abt_list span, .footer_course_list span{
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
+
+
+@media(max-width:450px){
+    .footer_top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 50px;
+        padding: 20px 10px;
+        padding-left: 0px;
+        border-bottom: 1px solid whitesmoke;
+    }
+    
+    .logo_adrress, .footer_address{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .footer_logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+    }
+    
+    .footer_logo img{
+        width: 40px;
+    }
+    
+    .footer_logo h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .footer_address p{
+        font-size: 12.5px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer_resource, .footer_abt, .footer_courses{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+    
+    .footer_resource h4, .footer_abt h4, .footer_courses h4{
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .footer_resource_list, .footer_abt_list, .footer_course_list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    .footer_resource_list span, .footer_abt_list span, .footer_course_list span{
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+
+    .footer_btm p{
+        font-size: 9px;
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+
+
+
+@media(max-width:330px){
+    .footer_logo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+    }
+    
+    .footer_logo img{
+        width: 35px;
+    }
+    
+    .footer_logo h1{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .footer_address p{
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer_resource, .footer_abt, .footer_courses{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+    
+    .footer_resource h4, .footer_abt h4, .footer_courses h4{
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .footer_resource_list, .footer_abt_list, .footer_course_list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    .footer_resource_list span, .footer_abt_list span, .footer_course_list span{
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+
+    .footer_btm p{
+        font-size: 9px;
+        width: 100%;
+        text-align: center;
+    }
+    
+}

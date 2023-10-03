@@ -1,0 +1,36 @@
+.admincourse_card{
+    width: 280px;
+    height: 300px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.05);
+}
+
+.admincourse_card img{
+    width: 70%;
+    height: 60%;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.admincourse{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.admincourse_card h3{
+    color: #00013e;
+    width: 100%;
+    text-align: center;
+}

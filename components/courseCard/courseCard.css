@@ -1,0 +1,159 @@
+.course_card{
+    width: 300px;
+    height: 380px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.09);
+}
+
+.course_card img{
+    width: 70%;
+    height: 55%;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.course{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.course_card h3{
+    color: #00013e;
+    width: 100%;
+    text-align: left;
+}
+
+
+.course_info{
+    width: 100%;
+    text-align: left;
+    color: #00013e;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+
+.enroll{
+    margin-top: 10px;
+    padding: 6px 15px;
+    outline: none;
+    background-color: #E8ECF6;
+    border: 1px solid transparent;
+    color: #00013e;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14.5px;
+    transition: all .3s ease;
+    border-radius: 5px;
+}
+
+.enroll:hover{
+    background-color: #141671;
+    color: white;
+}
+
+
+
+@media(max-width:480px){
+    .course_card{
+        width: 290px;
+    }
+    
+    
+    .course_card h3{
+        font-size: 16px;
+    }
+    
+    
+    .course_info{
+        font-size: 12px;
+    }
+    
+    
+    .enroll{
+        margin-top: 10px;
+        padding: 6px 12px;
+    }
+}
+
+
+
+@media(max-width:380px){
+    .course_card{
+        width: 250px;
+        height: 350px;
+    }
+    
+    
+    .course_card h3{
+        font-size: 16px;
+    }
+    
+    
+    .course_info{
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width:300px){
+    .course_card{
+        width: 200px;
+        height: 300px;
+    }
+    
+    
+    .course_card h3{
+        font-size: 15px;
+    }
+    
+    
+    .course_info{
+        font-size: 10px;
+    }
+
+    .enroll{
+        margin-top: 10px;
+        padding: 6px 12px;
+        font-size: 11px;
+    }
+}
+
+
+@media(max-width:240px){
+    .course_card{
+        width: 180px;
+        height: 280px;
+    }
+    
+    
+    .course_card h3{
+        font-size: 13px;
+    }
+    
+    
+    .course_info{
+        font-size: 10px;
+    }
+
+    .enroll{
+        margin-top: 10px;
+        padding: 6px 12px;
+        font-size: 11px;
+    }
+}

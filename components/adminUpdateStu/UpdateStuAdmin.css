@@ -1,0 +1,187 @@
+.admin_stu_update{
+    width: 50%;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+.admin_stu_update h3{
+    color: darkorange;
+    font-weight: 500;
+    letter-spacing: .4px;
+}
+
+
+.admin_update_form{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.admin_update_form input, .admin_update_form select{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    color: #23267B;
+    border-radius: 5px;
+}
+
+.session_grp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+
+.stu_session{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+
+.radio_input{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 13px;
+    color: #23267B;
+}
+
+.admin_update_form .adminUpdateBtn{
+    margin-top: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(21, 144, 21);
+    color: whitesmoke;
+    border: 1px solid transparent;
+    padding: 7px 12px;
+    border-radius: 8px;
+    width: fit-content;
+    letter-spacing: .5px;
+    font-size: 13px;
+}
+
+.admin_update_form .adminUpdateBtn:hover{
+    background-color: rgb(9, 116, 9);
+}
+
+
+
+@media(max-width:700px){
+    .admin_stu_update{
+        width: 70%;
+    }
+    
+    .stu_session{
+        gap: 18px;
+    }
+    
+    .radio_input{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        font-size: 13px;
+        color: #23267B;
+    }
+
+    .admin_help{
+        position: fixed;
+        overflow-y: hidden;
+    }
+    
+}
+
+
+@media(max-width:480px){
+    .admin_stu_update{
+        width: 70%;
+        padding: 20px 10px;
+    }
+    
+    .stu_session{
+        gap: 15px;
+    }
+    
+    .radio_input{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        font-size: 12px;
+        color: #23267B;
+    }
+
+    .admin_update_form input, .admin_update_form select{
+        width: 100%;
+        padding: 7px 10px;
+        outline: none;
+        border: 1px solid #ccc;
+        color: #23267B;
+        border-radius: 5px;
+    }
+
+    .admin_update_form .adminUpdateBtn{
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+    
+    
+}
+
+
+@media(max-width:410px){
+    .admin_stu_update{
+        width: 80%;
+        padding: 20px 10px;
+    }
+    
+    .stu_session{
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+    
+    .radio_input{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        font-size: 12px;
+        color: #23267B;
+    }
+
+    .admin_update_form input, .admin_update_form select{
+        width: 100%;
+        padding: 7px 10px;
+        outline: none;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        color: #23267B;
+        border-radius: 5px;
+    }
+}
+
+
+@media(max-width:350px){
+    .admin_stu_update{
+        width: 90%;
+    }
+
+    .admin_stu_update h3{
+        text-align: center;
+        font-size: 15px;
+        letter-spacing: .4px;
+    }
+    
+    .admin_update_form .adminUpdateBtn{
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+    
+}

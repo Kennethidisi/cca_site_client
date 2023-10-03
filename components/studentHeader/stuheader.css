@@ -1,0 +1,238 @@
+.s_header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+    padding: 10px 30px 10px 40px;
+    color: rgb(4, 4, 52);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+.stuMenuBtn{
+    display: none;
+    cursor: pointer;
+}
+
+
+.s_header_img{
+    width: 35px;
+}
+
+.top_profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}
+
+.notification{
+    position: absolute;
+    width: fit-content;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    top: 40px;
+    right: -20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hide_notification{
+    position: absolute;
+    width: fit-content;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    top: 40px;
+    right: -20px;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.notification_link{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.notificationIcon, .logoutIcon{
+    color: #23267B;
+    font-size: 14px;
+}
+
+
+.notification_span{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    display: flex;
+}
+
+
+.notification_span small{
+    position: absolute;
+    top: -3px;
+    right: 0px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.top_profile .topImg{
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    padding: 1px;
+}
+
+.top_profile p{
+    font-size: 14px;
+}
+
+
+.top_profile .arrowDown{
+    color: #23267B;
+    cursor: pointer;
+}
+
+
+
+
+@media(max-width:1120px){
+
+    .s_header{
+        height: 50px;
+    }
+
+
+    .stuMenuBtn{
+        display: flex;
+        width: 25px;
+    }
+
+    .s_header_img{
+        display: none;
+    }
+}
+
+
+@media(max-width:480px){
+    .s_header{
+        padding: 10px 20px 10px 30px;
+    }
+
+
+    .stuMenuBtn{
+        width: 20px;
+    }
+
+    .notification_link{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 13px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    
+    .notificationIcon, .logoutIcon{
+        color: #23267B;
+        font-size: 18px !important;
+    }
+
+    .notification_span{
+        width: 21px;
+        height: 21px;
+        position: relative;
+        display: flex;
+    }
+    
+    
+    .notification_span small{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 9px;
+        font-weight: 500;
+    }
+}
+
+
+@media(max-width:320px){
+    .s_header{
+        padding: 10px 15px 10px 20px;
+    }
+
+    .stuMenuBtn{
+        width: 20px;
+    }
+
+    .top_profile{
+        gap: 3px;
+    }
+
+    .top_profile .topImg{
+        width: 23px;
+        height: 23px;
+    }
+    
+    .top_profile p{
+        font-size: 12px;
+    }
+
+
+    .notification{
+        right: -10px;
+    }
+
+    .notification_link{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    
+    .notificationIcon, .logoutIcon{
+        color: #23267B;
+        font-size: 16px !important;
+    }
+    
+}

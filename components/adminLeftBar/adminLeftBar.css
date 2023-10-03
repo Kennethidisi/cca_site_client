@@ -1,0 +1,183 @@
+.admin_leftBar{
+    width: 17%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.admin_leftbar_wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.admin_leftbar_wrapper h3{
+    color: #23267B;
+    background-color: aliceblue;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: .5px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+
+.admin_leftbar_wrapper ul{
+    list-style: none;
+    width: 100%;
+}
+
+.admin_leftbar_wrapper ul li{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px 10px 15px 30px;
+}
+
+.admin_leftbar_wrapper ul li:hover{
+    background-color: rgba(230, 230, 239, 0.319);
+}
+
+.admin_leftbar_wrapper ul li img{
+    width: 25px;
+}
+
+.admin_leftbar_wrapper ul li span{
+    color: #23267B;
+    font-size: 15px;
+}
+
+
+
+@media(max-width:1120px){
+    .admin_leftBar{
+        width: 22%;
+        height: calc(100vh - 50px);
+        position: absolute;
+        top: 50px;
+        left: 0;
+        display: flex;
+        transition: all .3s ease;
+        z-index: 1000;
+    }
+
+    .hide_bar{
+        left: -100%;
+    }
+    
+}
+
+
+@media(max-width:980px){
+    .admin_leftBar{
+        width: 25%;
+    }
+    
+}
+
+
+@media(max-width:850px){
+    .admin_leftBar{
+        width: 27%;
+    }
+    
+}
+
+
+@media(max-width:830px){
+    .admin_leftBar{
+        width: 30%;
+    }
+    
+}
+
+@media(max-width:750px){
+    .admin_leftBar{
+        width: 35%;
+    }
+    
+}
+
+@media(max-width:650px){
+    .admin_leftBar{
+        width: 40%;
+    }
+    
+}
+
+@media(max-width:550px){
+    .admin_leftBar{
+        width: 45%;
+    }
+    
+}
+
+
+@media(max-width:480px){
+    .admin_leftBar{
+        width: 50%;
+    }
+    
+    .admin_leftbar_wrapper h3{
+        font-size: 20px;
+        height: 50px;
+        justify-content: center;
+        padding-left: 0px;
+    }
+}
+
+@media(max-width:440px){
+    .admin_leftBar{
+        width: 60%;
+    }
+    
+}
+
+
+@media(max-width:360px){
+    .admin_leftBar{
+        width: 60%;
+    }
+    
+    .admin_leftbar_wrapper h3{
+        font-size: 18px;
+        height: 50px;
+    }
+
+    .admin_leftbar_wrapper ul li{
+        padding: 15px 10px 15px 20px;
+    }
+    
+    
+    .admin_leftbar_wrapper ul li img{
+        width: 22px;
+    }
+    
+    .admin_leftbar_wrapper ul li span{
+        color: #23267B;
+        font-size: 13px;
+    }
+    
+}
+
+@media(max-width:300px){
+    .admin_leftBar{
+        width: 75%;
+    }
+}
+
+@media(max-width:300px){
+    .admin_leftBar{
+        width: 100%;
+    }
+}

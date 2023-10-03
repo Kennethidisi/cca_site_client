@@ -1,0 +1,305 @@
+.slider_div{
+    width: 65%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+}
+
+article{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+
+.slider_info{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010351;
+    border-radius: 15px;
+    padding: 20px 20px 30px 20px;
+}
+
+.quoteIcon{
+    font-size: 80px !important;
+    color: white !important;
+}
+
+.review_text{
+    width: 100%;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    letter-spacing: .3px;
+}
+
+.stars{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.starIcon{
+    color: white !important;
+}
+
+.r_name{
+    margin-top: 20px;
+    letter-spacing: .5px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.slider_div button{
+    outline: none;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    z-index: 100;
+}
+
+.btn{
+    font-size: 80px !important;
+    color: #010351;
+    cursor: pointer;
+}
+
+
+.activeSlide{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.nextSlide{
+    transform: translateX(100%);
+}
+
+
+.lastSlide{
+    transform: translateX(-100%);
+}
+
+
+@media(max-width:1120px){
+    .slider_div{
+        width: 85%;
+    }
+}
+
+
+@media(max-width:840px){
+
+    .slider_div{
+        width: 90%;
+    }
+
+    .slider_info{
+        width: 75%;
+        padding: 15px 15px 30px 15px;
+    }
+}
+
+
+@media(max-width:620px){
+
+    .slider_div{
+        width: 95%;
+    }
+
+    .slider_info{
+        width: 70%;
+        padding: 15px 15px 30px 15px;
+    }
+
+    .quoteIcon{
+        font-size: 60px !important;
+    }
+    
+    .review_text{
+        width: 100%;
+        text-align: center;
+        color: #f2f2f2;
+        font-size: 12px;
+        letter-spacing: .3px;
+    }
+    
+    .stars{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        margin-top: 10px;
+    }
+    
+    .starIcon{
+        color: white !important;
+        font-size: 16px !important;
+    }
+    
+    .r_name{
+        margin-top: 20px;
+        letter-spacing: .5px;
+        font-size: 18px;
+        text-transform: capitalize;
+        color: #333;
+    }
+    
+    .slider_div button{
+        outline: none;
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        border: none;
+        background-color: transparent;
+        z-index: 100;
+    }
+    
+    .btn{
+        font-size: 60px !important;
+        color: #010351;
+        cursor: pointer;
+    }
+}
+
+
+@media(max-width:480px){
+
+    .slider_div{
+        width: 100%;
+        height: 300px;
+    }
+
+    .slider_info{
+        width: 70%;
+        padding: 10px 10px 20px 10px;
+    }
+
+    .quoteIcon{
+        font-size: 50px !important;
+    }
+    
+    .review_text{
+        font-weight: 500;
+        font-size: 10px;
+    }
+    
+    .stars{
+        margin-top: 10px;
+    }
+    
+    .starIcon{
+        color: white !important;
+        font-size: 16px !important;
+    }
+    
+    .r_name{
+        font-size: 16px;
+    }
+    
+    .btn{
+        font-size: 50px !important;
+    }
+}
+
+
+
+@media(max-width:350px){
+
+    .slider_div{
+        width: 100%;
+        height: 350px;
+    }
+
+    .slider_info{
+        width: 75%;
+        padding: 10px 10px 20px 10px;
+    }
+
+    .quoteIcon{
+        font-size: 50px !important;
+    }
+    
+    .review_text{
+        font-weight: 500;
+        font-size: 10px;
+    }
+    
+    .starIcon{
+        color: white !important;
+        font-size: 16px !important;
+    }
+    
+    .r_name{
+        margin-top: 10px;
+        letter-spacing: .5px;
+        font-size: 15px;
+        text-transform: capitalize;
+        color: #333;
+    }
+    
+    .btn{
+        font-size: 40px !important;
+    }
+}
+
+
+@media(max-width:270px){
+
+    .slider_div{
+        width: 100%;
+        height: 350px;
+    }
+
+    .slider_info{
+        width: 75%;
+        padding: 10px 10px 20px 10px;
+    }
+
+    .quoteIcon{
+        font-size: 40px !important;
+    }
+    
+    .review_text{
+        font-weight: 500;
+        font-size: 9px;
+    }
+    
+    .starIcon{
+        color: white !important;
+        font-size: 15px !important;
+    }
+    
+    .r_name{
+        margin-top: 10px;
+        letter-spacing: .5px;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #333;
+    }
+    
+    .btn{
+        font-size: 25px !important;
+    }
+}
